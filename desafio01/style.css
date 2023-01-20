@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0f0d13;
+  color: #e1e1e6;
+  font-family: Roboto;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+h2,
+p {
+  font-weight: 300;
+}
+
+main {
+  background-color: #2a2141;
+  width: fit-content;
+  padding: 38px;
+  border-radius: 10px;
+}
+
+div + div {
+  margin-top: 28px;
+}
+
+.players,
+.minutes {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 24px;
+}
+h2 {
+  font-size: 20px;
+}
+p {
+  font-size: 14px;
+}
+
+.two .about-music {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.two .about-music img {
+  width: 85px;
+  margin-right: 28px;
+}
+
+.two .music {
+  margin: 0;
+}
+.two .bar img {
+  width: 301px;
+}
+
+.three .bar,
+.three .minutes {
+  display: none;
+}
