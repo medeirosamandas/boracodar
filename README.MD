@@ -4,4 +4,4 @@
 
 [Figma](https://www.figma.com/community/file/1195050524500542670)
 
-![](.github/desafio01.png "Imagem do desafio 01")
+![](./.github/desafio01.png "Imagem do desafio 01")
